@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Notes</title>
+    <link href="{{ url_for('static', filename='assets/css/selfnotes.css') }}" rel="stylesheet" media="screen" type="text/css">
+ </head>
+  <body>
+    <h1>My Notes</h1>
+    <form action="/add-note" method="POST">
+      <label for="note">Add a note:</label>
+      <input type="text" name="note" id="note">
+      <button type="submit">Add</button>
+    </form>
+
+    <form action="/add-todo" method="POST">
+      <label for="todo">Add a to-do item:</label>
+      <input type="text" name="todo" id="todo">
+      <button type="submit">Add</button>
+    </form>
+
+    <form action="/add-info" method="POST">
+      <label for="info">Add important information:</label>
+      <input type="text" name="info" id="info">
+      <button type="submit">Add</button>
+    </form>
+
+    <h2>My Notes:</h2>
+    <ul>
+      {% for note in notes %}
+        <li>{{ note }}</li>
+      {% endfor %}
+    </ul>
+
+    <h2>My To-Do Items:</h2>
+    <ul>
+      {% for todo in todos %}
+        <li>{{ todo }}</li>
+      {% endfor %}
+    </ul>
+
+    <h2>Important Information:</h2>
+    <ul>
+      {% for item in info %}
+        <li>{{ item }}</li>
+      {% endfor %}
+    </ul>
+ </body>
+</html>

@@ -1,0 +1,108 @@
+/* Set font family and size for entire document */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    background-image: url("../static/eduimjpg.jpg");
+  }
+  
+  /* Style the header */
+  h1 {
+    color: #f9f6fc;
+    text-align: center;
+  }
+  
+  /* Style the form */
+  form {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #1caf2d;
+  }
+  
+  input[type="text"] {
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #d37222;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  input[type="submit"] {
+    background-color: #ee6008;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #ef720c;
+  }
+  
+  /* Style the flash messages */
+  .flash-messages {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .flash-messages li {
+    background-color: #df530d;
+    padding: 5px;
+    border: 1px solid #e75a0e;
+    margin-bottom: 10px;
+  }
+  
+  /* Style the posts */
+  p {
+    color:rgb(16, 16, 16);
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  a {
+    color: #000000;
+  }
+  
+  /* Style the replies */
+  ul {
+    color:rgb(21, 197, 24);
+    list-style: none;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  }
+  
+  /* Style the username labels */
+  span {
+    font-weight: bold;
+    font-style: italic;
+  }
+  span[style="color:red;font-weight::first-line;font-style:italic"] {
+    color: red;
+  }
+  span[style="color:blue;font-weight::first-line;font-style:italic"] {
+    color: blue;
+  
+  }
+  
+
+/* Select the h1 element and set its color to blue */
+h1 {
+    color: rgb(255, 72, 0);
+  }
+
+
+   
+  

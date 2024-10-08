@@ -1,0 +1,82 @@
+body {
+    background-image: url("/static/assets/img/eduimjpg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.dropdown {
+    position: relative;
+    display:inline-block;
+    top:200px;
+    left:270px;
+    margin-right: 30px;
+}
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: rgb(250, 133, 24);
+    width:450px;
+    border: 3px solid black;
+    border-radius: 10px;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .dropdown-item {
+    display: block;
+    padding: 10px;
+    background-color:azure;
+
+  }
+
+  .dropdown1{
+    position: relative;
+    display:inline-block;
+    top:400px;
+    right:670px;
+    margin-right:30px;
+}
+
+  .dropdown1:hover .dropdown-content {
+    display: block;
+  }
+
+  .dropdown2{
+    position: relative;
+    display:inline-block;
+    top:330px;
+    left:740px;
+    margin-right: 30px;
+}
+
+  .dropdown2:hover .dropdown-content {
+    display: block;
+  }
+
+
+.semester{
+    border-radius: 10px;
+    width:200px;
+    height:70px;
+    background-color: rgb(250, 133, 24);
+    font-size:x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border: 3px solid black;
+
+}
+
+.sem{ 
+    color:black;
+    font-size:large;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.sem:hover
+{
+    background-color: azure;
+}

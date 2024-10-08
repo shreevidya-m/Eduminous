@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Delete Text</title>
+  </head>
+  <body>
+    <h1>Delete Text</h1>
+    {% if text %}
+      <p>{{ text }}</p>
+      <form method="post" action="/delete">
+        <input type="submit" value="Delete">
+      </form>
+    {% else %}
+      <p>No text to delete.</p>
+    {% endif %}
+  </body>
+</html>

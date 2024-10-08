@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Forum Page</title>
+    <link rel="stylesheet" type = "text/css" href="{{ url_for('static',    filename='css/forum.css') }}">
+  </head>
+  <body>
+    <h1>Open Forum</h1>
+
+    <form method="post">
+      {% if session.username %}
+        <label for="content">Enter text:</label>
+        <input type="text" id="content" name="content">
+        <input type="submit" value="Post">
+      {% else %}
+        <p>You must be logged in to post.</p>
+      {% endif %}
+    </form>
+    
+
+    <hr>
+
+    {% with messages = get_flashed_messages() %}
+      {% if messages %}
+      <ul class="flash-messages">
+      {% for message in messages %}
+      <li>{{ message }}</li>
+      {% endfor %}
+      </ul>
+      {% endif %}
+    {% endwith %}
+
+
+    {% for post in posts %}
+      <p><span style="color:red;font-weight:bold;font-style:italic">{{ post.username }}:</span> {{ post.content }} (posted on {{ post.date }})</p>
+      <a href="/delete/{{ loop.index-1 }}">Delete</a>
+      <br>
+
+      <form method="post" action="/reply/{{ loop.index-1 }}">
+        <label for="reply">Reply:</label>
+        <input type="text" id="reply" name="reply">
+        <input type="submit" value="Reply">
+      </form>
+
+      {% if post.replies %}
+        <ul>
+          {% for reply in post.replies %}
+            <li><span style="color:blue;font-weight:bold;font-style:italic">{{ reply.username }}:</span> {{ reply.content }} (replied on {{ reply.date }})</li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+
+    {% endfor %}
+
+  </body>
+</html>

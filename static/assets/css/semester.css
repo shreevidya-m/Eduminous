@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(250, 133, 24);
+}
+
+.download{
+    position: relative;
+    background-color:azure;
+    text-align: center;
+    font-size:medium;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 3px solid black;
+    bottom:104px;
+    left:290px;
+    margin-bottom: 7px;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    
+    
+}
+
+.head{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.notes{
+    font-size:medium;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.download1{
+    position: relative;
+    background-color:azure;
+    text-align: center;
+    font-size:medium;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 3px solid black;
+    bottom:40px;
+    left:450px;
+    margin-bottom: 7px;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+
+}

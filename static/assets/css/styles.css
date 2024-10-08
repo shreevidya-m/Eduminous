@@ -1,0 +1,68 @@
+body {
+  background-image: url("/static/assets/img/eduimjpg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.btn {
+  border-radius: 10px;
+}
+
+.navbar {
+  border-bottom-style: solid;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input[type="text"] {
+  width: 400px;
+  height: 40px;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.drop1 {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  width:100px;
+  border: 3px solid black;
+  border-radius: 10px;
+  background-color: rgb(250, 133, 24);
+}
+.department:hover .drop1 {
+  display: block;
+}
+.dropdown-item {
+  display: block;
+  padding: 10px;
+  background-color:azure;
+
+}
+
+.dept{
+  color:black;
+    font-size:large;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.dept:hover{
+  background-color: azure;
+  color:black;
+  border-radius: 3px;
+}
+
+ul {
+  list-style: none;
+}
+
+
+

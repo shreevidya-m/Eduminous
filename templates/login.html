@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="{{ url_for('static', filename='assets/css/login.css') }}" rel="stylesheet" media="screen" type="text/css">
+    <title class="login_l" >Login</title>
+  </head>
+  <body>
+  
+    {% if message %}
+    <p>{{ message }}</p>
+    {% endif %}
+    <form method="POST" action="{{ url_for('login') }}">
+      <label class="username_l" for="username">Username:</label>
+      <input class="a_l" type="text" id="username" name="username" required><br><br>
+      <label class="password_l" for="password">Password:</label>
+      <input class="b_l" type="password" id="password" name="password" required><br><br>
+      <input class="submit_l" type="submit" value="Login">
+    </form>
+  </body>
+</html>

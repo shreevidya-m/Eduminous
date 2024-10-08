@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Post Text</title>
+    </head>
+    <body>
+        <h1>Post Text</h1>
+        <form method="POST" action="{{ url_for('post_text') }}">
+            <label for="title">Title:</label>
+            <input type="text" name="title" required><br><br>
+            <label for="text">Text:</label>
+            <textarea name="text" required></textarea><br><br>
+            <input type="submit" value="Post">
+        </form>
+    </body>
+</html>
+
