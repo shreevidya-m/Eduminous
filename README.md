@@ -1,3 +1,5 @@
+#EDUMINOUS
+
 EDUMINOUS - Educational Assistance Platform for Engineering Students
 Eduminous is a web-based platform that supports engineering students by providing resources, guidance, and a collaborative environment to enhance their learning journey. From project guidance to personalized study resources, Eduminous aims to be the one-stop solution for students eager to excel academically and professionally.
 
