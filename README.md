@@ -50,7 +50,6 @@ Engineering students looking for academic and professional resources in a collab
 - **Django**: Latest stable version
 
 ## 💼Use Cases&Impact
--Eduminous serves engineering students by providing an all-in-one platform that:
 -Enhances access to study materials and resources.
 -Facilitates doubt clarification through a community-supported forum.
 -Allows personalized learning with department-specific content and tools.
