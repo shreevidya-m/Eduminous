@@ -1,15 +1,15 @@
-EDUMINOUS - Educational Assistance Platform for Engineering Students
+EDUMINOUS -Educational Assistance Platform for Engineering Students
 Eduminous is a web-based platform that supports engineering students by providing resources, guidance, and a collaborative environment to enhance their learning journey. From project guidance to personalized study resources, Eduminous aims to be the one-stop solution for students eager to excel academically and professionally.
 
-📜 License
+📜License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-📜 Project Overview
+📜Project Overview
 Problem Statement:
 Engineering involves more than just academics. Students often need access to additional resources like project materials, mentorship, and guidance for publications. Eduminous addresses this need by providing an integrated platform that simplifies access to essential learning resources and community support.
 
-Project Theme: Smart City - Education
-Target Audience: Engineering Students
+Project Theme:Smart City - Education
+Target Audience:Engineering Students
 
 💡 Features
 Key Functionalities
@@ -20,19 +20,25 @@ Doubt Clarification Forum: Video and voice-based doubt-solving interface with pe
 Personalized Notes & Textbooks: Department-specific notes and e-books for customized learning.
 Community Forums: Connect with peers and mentors, fostering collaboration and knowledge-sharing.
 
-📐 Technology Stack
+📂 Folder Structure
+cure_analytics/ - Main project folder containing core code and modules.
+static/ - Contains CSS, JavaScript, and images.
+templates/ - HTML templates for frontend.
+requirements.txt - List of dependencies required for the project.
+
+📐Technology Stack
 Backend: Django Framework, Django REST Framework API
 Frontend: HTML, CSS
 Programming Language: Python
 Environment: Windows 11 SDK
 
-🚀 Installation
+🚀Installation
 Prerequisites
 Operating System: Windows 11 or compatible
 Python (v3.x)
 Django (latest stable version)
 
-💼 Use Cases & Impact
+💼Use Cases&Impact
 Eduminous serves engineering students by providing an all-in-one platform that:
 Enhances access to study materials and resources.
 Facilitates doubt clarification through a community-supported forum.
