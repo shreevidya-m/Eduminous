@@ -8,8 +8,8 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 Problem Statement:
 Engineering involves more than just academics. Students often need access to additional resources like project materials, mentorship, and guidance for publications. Eduminous addresses this need by providing an integrated platform that simplifies access to essential learning resources and community support.
 
-Project Theme:Smart City - Education
-Target Audience:Engineering Students
+Project Theme : Smart City - Education
+,Target Audience: Engineering Students
 
 💡 Features
 Key Functionalities
